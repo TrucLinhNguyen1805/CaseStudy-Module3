@@ -1,0 +1,83 @@
+{
+    "furama": [
+      {
+        "id": 1,
+        "name": "Villa Deluxe",
+        "DienTich": "250",
+        "price": "2000000",
+        "people": "4",
+        "Kieuthue": "Ngày",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
+        "type": {
+          "id": 1,
+          "name": "Villa"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Villa Deluxe",
+        "DienTich": "250",
+        "price": "2000000",
+        "people": "4",
+        "Kieuthue": "Tuần",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
+        "type": {
+          "id": 1,
+          "name": "Villa"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Villa Deluxe",
+        "DienTich": "250",
+        "price": "2000000",
+        "people": "4",
+        "Kieuthue": "Ngày",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
+        "type": {
+          "id": 1,
+          "name": "Villa"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Villa Deluxe",
+        "DienTich": "250",
+        "price": "2000000",
+        "people": "4",
+        "Kieuthue": "Tuần",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
+        "type": {
+          "id": 1,
+          "name": "Villa"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Room 145",
+        "DienTich": "250",
+        "price": "2000000",
+        "people": "4",
+        "Kieuthue": "Tuần",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
+        "type": {
+          "id": 31,
+          "name": "Room"
+        }
+      }
+    ],
+    "type": [
+    {
+      "id": 1,
+      "name": "Villa"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Room"
+    }
+  ]
+}
