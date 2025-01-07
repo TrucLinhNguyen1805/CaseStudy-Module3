@@ -1,72 +1,106 @@
 {
-    "furama": [
-      {
+  "furama": [
+    {
+      "id": 1,
+      "name": "Villa Dc",
+      "DienTich": "250",
+      "price": "2.500.00",
+      "people": "5",
+      "Kieuthue": "Ngày",
+      "image": "https://vinpearldanangresort.com/wp-content/uploads/2023/12/3-bedroom-villa-sea-view-vinpearl-luxury-da-nang-9.jpg",
+      "content": "Nằm tại vị trí thuận tiện ở trung tâm TP. Hồ Chí Minh, Nicecy Hotel - Bui Thi Xuan Street cung cấp các phòng điều hòa với Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. Khách sạn 3 sao này có quầy lễ tân 24 giờ và dịch vụ tiền sảnh. Đây là chỗ nghỉ không hút thuốc và nằm cách Chợ Bến Thành 13 phút đi bộ. Tại khách sạn, tất cả các phòng có bàn làm việc, TV màn hình phẳng, phòng tắm riêng, ga trải giường và khăn tắm. Phòng nào cũng có két an toàn và một số phòng nhìn ra thành phố. Các căn đều có tủ quần áo và ấm đun nước để khách sử dụng. Nicecy Hotel - Bui Thi Xuan Street có phục vụ bữa sáng thực đơn buffet và kiểu Á mỗi sáng. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Công viên Tao Đàn, Bảo tàng Thành phố Hồ Chí Minh và Bảo tàng chứng tích chiến tranh. Sân bay Quốc tế Tân Sơn Nhất cách 6 km.",
+      "type": {
         "id": 1,
-        "name": "Villa Deluxe",
-        "DienTich": "250",
-        "price": "2000000",
-        "people": "4",
-        "Kieuthue": "Ngày",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
-        "type": {
-          "id": 1,
-          "name": "Villa"
-        }
-      },
-      {
-        "id": 2,
-        "name": "Villa Deluxe",
-        "DienTich": "250",
-        "price": "2000000",
-        "people": "4",
-        "Kieuthue": "Tuần",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
-        "type": {
-          "id": 1,
-          "name": "Villa"
-        }
-      },
-      {
-        "id": 3,
-        "name": "Villa Deluxe",
-        "DienTich": "250",
-        "price": "2000000",
-        "people": "4",
-        "Kieuthue": "Ngày",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
-        "type": {
-          "id": 1,
-          "name": "Villa"
-        }
-      },
-      {
-        "id": 4,
-        "name": "Villa Deluxe",
-        "DienTich": "250",
-        "price": "2000000",
-        "people": "4",
-        "Kieuthue": "Tuần",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
-        "type": {
-          "id": 1,
-          "name": "Villa"
-        }
-      },
-      {
-        "id": 5,
-        "name": "Room 145",
-        "DienTich": "250",
-        "price": "2000000",
-        "people": "4",
-        "Kieuthue": "Tuần",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6cuED7Qd1L7DtIGp4TvTQn60tKmhXKTCkA&s",
-        "type": {
-          "id": 31,
-          "name": "Room"
-        }
+        "name": "Villa"
       }
-    ],
-    "type": [
+    },
+    {
+      "id": 2,
+      "name": "Villa 25",
+      "DienTich": "250",
+      "price": "3.530.000",
+      "people": "4",
+      "Kieuthue": "Tuần",
+      "image": "https://vinpearlresortvietnam.com/wp-content/uploads/vinpearl-resort-nha-trang-bay-4-bedroom-pool-villa-2.jpeg",
+      "content": "Nằm tại vị trí thuận tiện ở trung tâm TP. Hồ Chí Minh, Nicecy Hotel - Bui Thi Xuan Street cung cấp các phòng điều hòa với Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. Khách sạn 3 sao này có quầy lễ tân 24 giờ và dịch vụ tiền sảnh. Đây là chỗ nghỉ không hút thuốc và nằm cách Chợ Bến Thành 13 phút đi bộ. Tại khách sạn, tất cả các phòng có bàn làm việc, TV màn hình phẳng, phòng tắm riêng, ga trải giường và khăn tắm. Phòng nào cũng có két an toàn và một số phòng nhìn ra thành phố. Các căn đều có tủ quần áo và ấm đun nước để khách sử dụng. Nicecy Hotel - Bui Thi Xuan Street có phục vụ bữa sáng thực đơn buffet và kiểu Á mỗi sáng. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Công viên Tao Đàn, Bảo tàng Thành phố Hồ Chí Minh và Bảo tàng chứng tích chiến tranh. Sân bay Quốc tế Tân Sơn Nhất cách 6 km.",
+      "type": {
+        "id": 1,
+        "name": "Villa"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Villa Deluxe",
+      "DienTich": "250",
+      "price": "2.540.650",
+      "people": "4",
+      "Kieuthue": "Ngày",
+      "image": "https://elitetour.com.vn/files/images/VinpearlDiscovery1PQ/vinpearl%20dis%201%20PQ%2016.jpg",
+      "content": "Nằm tại vị trí thuận tiện ở trung tâm TP. Hồ Chí Minh, Nicecy Hotel - Bui Thi Xuan Street cung cấp các phòng điều hòa với Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. Khách sạn 3 sao này có quầy lễ tân 24 giờ và dịch vụ tiền sảnh. Đây là chỗ nghỉ không hút thuốc và nằm cách Chợ Bến Thành 13 phút đi bộ. Tại khách sạn, tất cả các phòng có bàn làm việc, TV màn hình phẳng, phòng tắm riêng, ga trải giường và khăn tắm. Phòng nào cũng có két an toàn và một số phòng nhìn ra thành phố. Các căn đều có tủ quần áo và ấm đun nước để khách sử dụng. Nicecy Hotel - Bui Thi Xuan Street có phục vụ bữa sáng thực đơn buffet và kiểu Á mỗi sáng. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Công viên Tao Đàn, Bảo tàng Thành phố Hồ Chí Minh và Bảo tàng chứng tích chiến tranh. Sân bay Quốc tế Tân Sơn Nhất cách 6 km.",
+      "type": {
+        "id": 1,
+        "name": "Villa"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Villa VIP",
+      "DienTich": "250",
+      "price": "3.530.000",
+      "people": "4",
+      "Kieuthue": "Tuần",
+      "image": "https://vinpearlresortvietnam.com/wp-content/uploads/villa_3-bedroom_ocean_view_vinpearl_phuquoc_1.jpg",
+      "content": "Nằm tại vị trí thuận tiện ở trung tâm TP. Hồ Chí Minh, Nicecy Hotel - Bui Thi Xuan Street cung cấp các phòng điều hòa với Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. Khách sạn 3 sao này có quầy lễ tân 24 giờ và dịch vụ tiền sảnh. Đây là chỗ nghỉ không hút thuốc và nằm cách Chợ Bến Thành 13 phút đi bộ. Tại khách sạn, tất cả các phòng có bàn làm việc, TV màn hình phẳng, phòng tắm riêng, ga trải giường và khăn tắm. Phòng nào cũng có két an toàn và một số phòng nhìn ra thành phố. Các căn đều có tủ quần áo và ấm đun nước để khách sử dụng. Nicecy Hotel - Bui Thi Xuan Street có phục vụ bữa sáng thực đơn buffet và kiểu Á mỗi sáng. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Công viên Tao Đàn, Bảo tàng Thành phố Hồ Chí Minh và Bảo tàng chứng tích chiến tranh. Sân bay Quốc tế Tân Sơn Nhất cách 6 km.",
+      "type": {
+        "id": 1,
+        "name": "Villa"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Room 145",
+      "DienTich": "250",
+      "price": "1.540.235",
+      "people": "4",
+      "Kieuthue": "Tuần",
+      "image": "https://kimlientravel.com.vn/upload/image/phu-quoc/combo-discovery3-phuquoc/182247686.jpg",
+      "content": "Nằm tại vị trí thuận tiện ở trung tâm TP. Hồ Chí Minh, Nicecy Hotel - Bui Thi Xuan Street cung cấp các phòng điều hòa với Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. Khách sạn 3 sao này có quầy lễ tân 24 giờ và dịch vụ tiền sảnh. Đây là chỗ nghỉ không hút thuốc và nằm cách Chợ Bến Thành 13 phút đi bộ. Tại khách sạn, tất cả các phòng có bàn làm việc, TV màn hình phẳng, phòng tắm riêng, ga trải giường và khăn tắm. Phòng nào cũng có két an toàn và một số phòng nhìn ra thành phố. Các căn đều có tủ quần áo và ấm đun nước để khách sử dụng. Nicecy Hotel - Bui Thi Xuan Street có phục vụ bữa sáng thực đơn buffet và kiểu Á mỗi sáng. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Công viên Tao Đàn, Bảo tàng Thành phố Hồ Chí Minh và Bảo tàng chứng tích chiến tranh. Sân bay Quốc tế Tân Sơn Nhất cách 6 km.",
+      "type": {
+        "id": 3,
+        "name": "Room"
+      }
+    },
+    {
+      "id": 6,
+      "name": "House 185",
+      "DienTich": "250",
+      "price": "1,000,999",
+      "people": "4 ",
+      "Kieuthue": "Tuần",
+      "image": "https://vinpearlresortvietnam.com/wp-content/uploads/villa-2-phong-ngu-vinpearl-melia-phu-quoc-Bathroom7.jpg",
+      "content": "Nằm tại vị trí thuận tiện ở trung tâm TP. Hồ Chí Minh, Nicecy Hotel - Bui Thi Xuan Street cung cấp các phòng điều hòa với Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. Khách sạn 3 sao này có quầy lễ tân 24 giờ và dịch vụ tiền sảnh. Đây là chỗ nghỉ không hút thuốc và nằm cách Chợ Bến Thành 13 phút đi bộ. Tại khách sạn, tất cả các phòng có bàn làm việc, TV màn hình phẳng, phòng tắm riêng, ga trải giường và khăn tắm. Phòng nào cũng có két an toàn và một số phòng nhìn ra thành phố. Các căn đều có tủ quần áo và ấm đun nước để khách sử dụng. Nicecy Hotel - Bui Thi Xuan Street có phục vụ bữa sáng thực đơn buffet và kiểu Á mỗi sáng. Các điểm tham quan nổi tiếng gần chỗ nghỉ bao gồm Công viên Tao Đàn, Bảo tàng Thành phố Hồ Chí Minh và Bảo tàng chứng tích chiến tranh. Sân bay Quốc tế Tân Sơn Nhất cách 6 km.",
+      "type": {
+        "id": 2,
+        "name": "House"
+      }
+    },
+    {
+      "name": "Linh Nguyen",
+      "DienTich": "250",
+      "price": "1.000.290",
+      "people": "4",
+      "Kieuthue": "Ngày",
+      "image": "dshfjd",
+      "content": "fsgs",
+      "type": {
+        "id": 1,
+        "name": "Villa"
+      },
+      "rental": "Tuần",
+      "id": 7
+    }
+  ],
+  "type": [
     {
       "id": 1,
       "name": "Villa"

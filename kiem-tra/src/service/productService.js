@@ -1,6 +1,6 @@
 import axios from "axios"
-let url = `http://localhost:8080/furama`
-    export async function getAllFurama() {
+let url = `http://localhost:3000/products`
+    export async function getAllProduct() {
         try{
             const response = await axios.get(`${url}`);
             console.log(response); 
@@ -11,20 +11,7 @@ let url = `http://localhost:8080/furama`
         }
         // return studentList;
     }
-    export async function searchFuramaByName(searchName, typeId){
-        let url1 = `${url}?name_like=${searchName}&type.id=${typeId}&_sort=name&_order=asc`
-        if(typeId===""){
-            url1 = `${url}?name_like=${searchName}&_sort=name&_order=asc`
-        }
-        try{
-            const response = await axios.get(url1);
-            return response.data;
-        }catch(e){
-            console.log("Lỗi"+e);  
-            return null;
-        }
-    }
-    export async function getFuramaById(id) {
+    export async function getProductById(id) {
         try{
             const response = await axios.get(`${url}/`+id);
             console.log(response); 
@@ -35,7 +22,7 @@ let url = `http://localhost:8080/furama`
         }
         
     }
-    export async function deleteFuramaById(id){
+    export async function deleteProductById(id){
         try{
             const response = await axios.delete(`${url}/`+id);
             console.log(response); 
@@ -45,20 +32,19 @@ let url = `http://localhost:8080/furama`
             return null;
         }
     }
-    export async function addNewFurama(hotel) {
+    export async function addNewProduct(product) {
         // kết nối API để thêm mới
         try{
-            return axios.post(url, hotel);
-            
+            return axios.post(url, product);    
         }catch(e){
             console.log("Lỗi"+e);
         }
     } 
 
-    export async function editNewFurama(id,hotel) {
+    export async function editNewProduct(id,product) {
             // kết nối API để thêm mới
         try{
-            const response = await axios.put(`${url}/`+id , hotel);
+            const response = await axios.put(`${url}/`+id , product);
                 
         }catch(e){
             console.log("Lỗi"+e);

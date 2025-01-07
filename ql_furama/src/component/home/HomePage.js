@@ -3,76 +3,83 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min";
 import { getAllFurama, searchFuramaByName } from "../../service/hotelService";
 import { getAllType } from "../../service/typeService";
+import { Link } from "react-router-dom";
 
 function HomePage() {
     const [hotelList, setHotelList] = useState([]);
     const [typeList, setTypeList] = useState([]);
     const searchRef = useRef();
     const searchTypeIdRef = useRef();
+
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const list = await getAllFurama();
-                setHotelList(list); 
+                setHotelList(list);
             } catch (error) {
                 console.error("Error:", error);
             }
         };
-        const fetchDataType = async () =>{
-            const list = await getAllType()
+        const fetchDataType = async () => {
+            const list = await getAllType();
             setTypeList(list);
-        }
+        };
         fetchData();
         fetchDataType();
     }, []);
-    const handleSearch =()=>{
+
+    const handleSearch = () => {
         let name = searchRef.current.value;
         let typeId = searchTypeIdRef.current.value;
-        const fetchData = async ()=>{
-            const searchList = await searchFuramaByName(name,typeId);
+        const fetchData = async () => {
+            const searchList = await searchFuramaByName(name, typeId);
             setHotelList(searchList);
-        }
+        };
         fetchData();
-    }
+    };
+
     return (
         <>
             <div className="w-100">
                 <img 
-                    src="https://img.lovepik.com/photo/20211120/medium/lovepik-panoramic-view-of-the-mogan-mountain-picture_500362891.jpg" 
+                    src="https://file4.batdongsan.com.vn/2020/04/24/hmcVYWuR/20200424140141-d2b1.jpg" 
                     alt="Panoramic View of the Mogan Mountain" 
                     className="img-fluid" 
                     style={{ width: '100%', height: 'auto' }} 
                 />
             </div>
-            <input style={{ marginTop: "20px", marginLeft:"20px" }}  ref={searchRef} name={'searchName'} placeholder={'Enter Search'}/>
-                    <select ref={searchTypeIdRef}>
-                        <option value={""}>------chọn------</option>
-                        {typeList.map(e=>(
-                            <option value={e.id}>{e.name}</option>
-                        ))}
-                    </select>
-                    <button className={'btn btn-sm btn-success'} type={'button'} onClick={handleSearch}>Search</button><br/><br/>
+            <div className="search-container" style={{ marginTop: "20px", marginLeft: "20px" }}>
+                <input ref={searchRef} name="searchName" placeholder="Enter Search" className="form-control d-inline-block w-25" />
+                <select className="form-select d-inline-block w-auto" ref={searchTypeIdRef}>
+                    <option value="">------Chọn loại------</option>
+                    {typeList.map(e => (
+                        <option key={e.id} value={e.id}>{e.name}</option>
+                    ))}
+                </select>
+                <button className="btn btn-sm btn-success ms-2" type="button" onClick={handleSearch}>Search</button>
+            </div>
             <div className="container mt-4">
                 <div className="row">
                     {hotelList && hotelList.map((e, i) => (
                         <div className="col-md-3 mb-4" key={i}>
-                            <div className="card" style={{ width: "17rem" }}>
+                            <div className="card shadow-sm border-light">
                                 <img
                                     src={e.image}
                                     className="card-img-top"
                                     alt={e.name}
+                                    style={{ height: "200px", objectFit: "cover" }}
                                 />
                                 <div className="card-body">
-                                    <h5 className="card-title">{e.name}</h5>
-                                    <p className="card-text">
-                                        Area: {e.DienTich} m² <br />
-                                        Price: {e.price} VND <br />
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <p style={{fontWeight:"bold", fontSize:"24", color: "#333"}} className="card-title text-truncate">{e.name}</p>
+                                        <span className="text-muted">{e.DienTich} m²</span>
+                                    </div>
+                                    <p style={{fontWeight:"bold", fontSize:"24", color: "#D2691E"}} className="card-text">
+                                        {e.price} VND <br />
                                     </p>
-                                    <a href="#" className="btn btn-primary me-2">
-                                        Detail
-                                    </a>
-                                    <a href="#" className="btn btn-danger">
-                                        Delete
+                                    <Link  to={'/home/detail/'+e.id} className={'btn btn-warning'} style={{ color: "white"}}>Detail</Link>
+                                    <a style={{ marginLeft:"10px"}} href="#" className="btn btn-success">
+                                        Booking
                                     </a>
                                 </div>
                             </div>
@@ -81,7 +88,6 @@ function HomePage() {
                 </div>
             </div>
         </>
-        
     );
 }
 
